@@ -1,32 +1,41 @@
+# Date Created
+
+22nd May 2022
+
+# Project Title
+
+Cyclistic Bike-share Project
+
+
 # Table of Contents
 
 1. Introduction
 
-    1.1. Scenario
+    - 1.1. Scenario
 
 2. Business Task
 
-    2.1. Statement of Business Task
+    - 2.1. Statement of Business Task
 
 3. Data Preparation
 
-    3.1. Data Limitations
-   
-    3.2. Data Credibility
+    - 3.1. Data Limitations
+    - 3.2. Data Credibility
 
 4. Data Processing
 
-    4.1. Documentation of Cleaning
+    - 4.1. Documentation of Cleaning
 
 5. Data Analysis
 
-    5.1. Key Findings and Differences
+    - 5.1. Key Findings and Differences
 
 6. Data Vizualisation
 
 7. Conclusion 
 
-    7.1. Recommendation
+    - 7.1. Recommendation
+    - 7.2. Credits
     
     
     
@@ -65,7 +74,7 @@ This third-party data is from a reliable source, and corresponds with the origin
 
 ## 4. Data Processing
 
-For the purpose of this analysis, I used Microsoft Excel for its clear data cleaning abilities and Python programming for its high computational power with large datasets, and its visualization libraries.
+For the purpose of this analysis, I used Microsoft Excel for its clear data cleaning abilities and Python programming for its high computational power with large datasets, and visualization libraries.
 
 ### 4.1. Documentation of Cleaning
 
@@ -149,7 +158,7 @@ Descriptive Analysis will be carried out to explore the different seasons which 
 This analysis will be shared as presentation using power point, and can be viewed by clicking [my presentation](https://1drv.ms/p/s!ArqJe-n-XOU9hkmB965WXlarOXEC)   
 
 ## 7. Conclusion
-Members use cyclistic ride share for routine daily activities like work while Casual use ride share for leisure activities. This is based on the record of the analysis as it shows
+Cyclistic Members use ride share for routine daily activities like work, while Casual Riders use ride share for leisure activities. This conclusion is drawn on the key findings of;
 
    - Increased rides for Casual on weekends and greater consistent rides on weekdays for Members 
    - Rise in number of rides at common work schedule hours for members.
@@ -159,8 +168,11 @@ Members use cyclistic ride share for routine daily activities like work while Ca
 
 The **act** phase. Based on the characteristics of casual riders;
 
-   - Make membership plans more attractive by increasing flexibility in pricing plans that Casuals can take advantage of e.g., Monthly Membership plans, Weekend only Membership plans
+   - Improve membership plans by increasing flexibility in pricing plans that Casual Riders can leverage e.g., Monthly Membership plans, Weekend only Membership plans
    - Campaign should be done in periods with high ride activity for casuals e.g., Summer Months (May-September).
    - Ads should be placed in strategic areas e.g., leisure sites like parks, cyclistic docking stations
 
 Evaluate impact of analysis in 6 months
+
+### 7.2. Credits
+I was able to complete this project by combining knowledge from Google Data Analytics Course, Python Documentation, and online search in google and stackoverflow.
