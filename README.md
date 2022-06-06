@@ -142,7 +142,7 @@ Dataset would be cleaned using Excel Spreadsheet and imported to Python for furt
 
 ## 5. Data Analysis
 
-Descriptive Analysis will be carried out to explore the different seasons which will yield insights and trends within the two customer types. The datasets will be imported and aggregated in Python for further analysis. xxxx is a summary file of analysis. 
+Descriptive Analysis will be carried out to explore the different seasons which will yield insights and trends within the two customer types. The datasets will be imported and aggregated in Python for further analysis. [analysis.ipynb](https://github.com/Jen-Ashishali/Cyclistic-bikeshare-analysis/blob/main/analysis.ipynb) is a jupyter notebook with summary of analysis. 
 
 ### 5.1. Key findings/ Trends and Differences
    - Number of rides taken by Members are more than Casuals but Casual Riders take longer rides than Members. 
