@@ -67,19 +67,17 @@ Analyze costumer segments to determine marketing strategies that maximize annual
 In this prepare phase, I will use Cyclistic’s historical trip data to analyze and identify trends. The trip data is public data made available by Motivate International Inc., under this [license](https://ride.divvybikes.com/data-license-agreement), and is stored as zip files organized by each year in 2013 – 2021. For the purpose of this analysis, 2021 dataset has been selected, stored in my hard drive, and organized by month in Excel files. N.B.: The datasets have a different name because Cyclistic is a fictional company.
 
 ### 3.1 Data Limitations
-Data-privacy issues prohibit the use of riders’ personally identifiable information. This means that I cannot connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes. Also, demographic data for riders in 2021 dataset are unavailable.
+Data-privacy issues prohibit the use of riders’ personally identifiable information. This means that I cannot connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes. Large volume of missing data within start_lng, start_lat, end_lng, end_lat limits analysis of riders start location and destination. Also, demographic data for riders in 2021 dataset are unavailable.
 
 ### 3.2 Data Credibility
 This third-party data is from a reliable source, and corresponds with the original source data on [Divvy data](https://ride.divvybikes.com/system-data). The dataset selected is current, comprehensive enough to solve the business task, and cited on [divvybikes.com](https://divvybikes.com/). We can conclude we are working with a good data source.
 
 ## 4. Data Processing
 
-For the purpose of this analysis, I used Microsoft Excel for its clear data cleaning abilities and Python programming for its high computational power with large datasets, and visualization libraries.
+For the purpose of this analysis, Microsoft Excel for data cleaning, Python for further data wrangling and analysis, Tableau to visualize supporting data that informed recommendations, and Powerpoint for presentation of insights.
 
 ### 4.1. Documentation of Cleaning
-
-Dataset would be cleaned using Excel Spreadsheet and imported to Python for further analysis. With the personalized checklist below, the data is verified to be ready for analysis.
-
+Examine datasets for;
 - Missing data
 - Irrelevant data
 - Duplicate entries
@@ -142,7 +140,7 @@ Dataset would be cleaned using Excel Spreadsheet and imported to Python for furt
 
 ## 5. Data Analysis
 
-Descriptive Analysis will be carried out to explore the different seasons which will yield insights and trends within the two customer types. The datasets will be imported and aggregated in Python for further analysis. [analysis.ipynb](https://github.com/Jen-Ashishali/Cyclistic-bikeshare-analysis/blob/main/analysis.ipynb) is a jupyter notebook with summary of analysis. 
+Descriptive Analysis will be carried out to explore different timelines which will yield insights,trends and comparisons within the two customer types. The datasets will be imported and aggregated in a jupyter notebook, [analysis.ipynb](https://github.com/Jen-Ashishali/Cyclistic-bikeshare-analysis/blob/main/analysis.ipynb) . 
 
 ### 5.1. Key findings/ Trends and Differences
    - Number of rides taken by Members are more than Casuals but Casual Riders take longer rides than Members. 
@@ -155,7 +153,7 @@ Descriptive Analysis will be carried out to explore the different seasons which 
    
 ## 6. Data Visualization 
 
-This analysis will be shared as presentation using power point, and can be viewed by clicking [my presentation](https://1drv.ms/p/s!ArqJe-n-XOU9hkmB965WXlarOXEC)   
+A simple dashboard, [Bike-share Activity per Timeline](https://public.tableau.com/views/CyclististicBike-shareActivity/Activity?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link), visually reveals trends within specific timelines about riders activity. A slide presentation, [Presentation](https://1drv.ms/p/s!ArqJe-n-XOU9hkmB965WXlarOXEC) summarizes the analysis, visualization and conclusion.
 
 ## 7. Conclusion
 Cyclistic Members use ride share for routine daily activities like work, while Casual Riders use ride share for leisure activities. This conclusion is drawn on the key findings of;
